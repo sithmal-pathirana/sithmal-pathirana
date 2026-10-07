@@ -1,0 +1,47 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sithmal Pathirana profile banner</title>
+  <desc id="desc">Subtle systems and security themed abstract banner with one accent color.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .grid { stroke: #cbd5e1; stroke-opacity: 0.32; }
+      .line { stroke: #64748b; stroke-opacity: 0.45; }
+      .accent { stroke: #2EA8A8; }
+      .node { fill: #2EA8A8; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0b1020; }
+        .grid { stroke: #334155; stroke-opacity: 0.35; }
+        .line { stroke: #94a3b8; stroke-opacity: 0.35; }
+      }
+    </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" class="grid" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="320" rx="16"/>
+  <rect x="0" y="0" width="1280" height="320" fill="url(#grid)" rx="16"/>
+
+  <g class="line" stroke-width="2">
+    <path d="M0 220 H280 L340 160 H540"/>
+    <path d="M740 160 H910 L980 95 H1280"/>
+    <path d="M0 120 H180 L240 180 H420"/>
+    <path d="M860 225 H1040 L1110 165 H1280"/>
+  </g>
+
+  <g class="accent" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 80 H360 L430 150 H620"/>
+    <path d="M680 150 H850 L920 220 H1120"/>
+  </g>
+
+  <g class="node">
+    <circle cx="180" cy="80" r="4"/>
+    <circle cx="360" cy="80" r="4"/>
+    <circle cx="430" cy="150" r="4"/>
+    <circle cx="620" cy="150" r="4"/>
+    <circle cx="680" cy="150" r="4"/>
+    <circle cx="850" cy="150" r="4"/>
+    <circle cx="920" cy="220" r="4"/>
+    <circle cx="1120" cy="220" r="4"/>
+  </g>
+</svg>
